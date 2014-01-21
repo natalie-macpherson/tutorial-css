@@ -1,0 +1,78 @@
+/* css document */
+
+/*
+
+css is structured as follows:
+
+seclector {
+    property: value;
+    property: value;
+    property: value
+}
+
+Each selector is paired with and styles an element.  For examples:
+
+html {} is pared withe and styles the <html>
+
+*/
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color:#CCC;
+}
+
+h1 {
+    font-family: Georgia, "Time New Roman", serif;
+    font-size: 3rem;
+    font-weight: normal
+}
+
+/* 1 rem is a relative value that is based on something.  1 rem = 16 px.  This is the defult body copy size.
+Line hight is leading in css.  So for leading you would say 1.5 rem = 24px */
+
+p {
+    font-size: 1rem;
+    line-height: 1.5rem
+}
+
+h1 + p {
+    font-size: 1.5rem;
+    line-height: 1.75rem
+}
+
+strong {
+    font-weight: bold;
+}
+
+em {
+    font-style: italic;
+}
+
+hr {
+    border: solid 4px #F00;
+}
+
+ul,
+ol {
+    background-color: #FFF;
+}
+
+li {
+    color: #F00;
+}
+
+ol li:first-child {
+    background-color: #000;
+}
+
+ol li:last-child {
+    background-color: #F90;
+}
+
+
+
+
+    
